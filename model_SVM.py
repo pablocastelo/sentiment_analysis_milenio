@@ -58,8 +58,7 @@ t0 = time()
 print("Loading data:")
 
 
-connection = MySQLdb.connect (host = 'newsdb.quody.co', user = 'news1',
-                              passwd = 'db', db = 'newsdb')
+connection = MySQLdb.connect (host = '', user = '', passwd = '', db = '')
 
 cursor = connection.cursor ()
 cursor.execute ("SELECT article, sentimient FROM milenio_articles_nd3;")

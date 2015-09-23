@@ -50,8 +50,7 @@ stopwordsES = map(list, zip(*stopwordsES))[0]
 print("Loading data:")
 print(categories)
 
-connection = MySQLdb.connect (host = 'newsdb.quody.co', user = 'news1',
-                              passwd = 'db', db = 'newsdb')
+connection = MySQLdb.connect (host = '', user = '', passwd = '', db = '')
 
 cursor = connection.cursor ()
 cursor.execute ("SELECT title, sentimient FROM milenio_articles_nd3;")

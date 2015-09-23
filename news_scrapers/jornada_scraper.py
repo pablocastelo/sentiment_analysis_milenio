@@ -13,13 +13,12 @@ import re
 import MySQLdb
 import tinyurl
 
-
 class MyDatabase:
 
-    host = 'localhost'
-    user = 'news'
-    password = 'db'
-    db = 'newsdb'
+    host = ''
+    user = ''
+    password = ''
+    db = ''
 
     def __init__(self):
         self.connection = MySQLdb.connect(self.host, self.user, self.password, self.db,use_unicode=1,charset="utf8")
