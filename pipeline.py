@@ -55,7 +55,7 @@ pipeline = Pipeline([
 ])
 
 # uncommenting more parameters will give better exploring power but will
-# increase processing time in a combinatorial way
+# increase processing time in a combinatorial way ..
 parameters = {
     'vect__max_df': (0.5, 0.75, 1.0),
     #'vect__max_features': (None, 5000, 10000, 50000),
