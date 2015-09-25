@@ -1,30 +1,5 @@
--- phpMyAdmin SQL Dump
--- version 4.2.3deb1.trusty~ppa.1
--- http://www.phpmyadmin.net
---
--- Host: newsdb.quody.co
--- Generation Time: Sep 23, 2015 at 05:00 PM
--- Server version: 5.6.22-log
--- PHP Version: 5.5.9-1ubuntu4.12
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-
---
--- Database: `newsdb`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `milenio_articles_nd1`
---
 
 CREATE TABLE IF NOT EXISTS `milenio_articles_nd1` (
 `id` int(8) NOT NULL,
