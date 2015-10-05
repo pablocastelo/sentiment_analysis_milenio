@@ -14,7 +14,6 @@ import csv
 
 from sklearn.utils.extmath import density
 from sklearn import metrics
-from sklearn.datasets import fetch_20newsgroups
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.linear_model import SGDClassifier

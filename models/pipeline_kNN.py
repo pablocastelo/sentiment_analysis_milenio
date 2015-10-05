@@ -12,7 +12,6 @@ import logging
 import numpy as np
 import csv
 
-from sklearn.datasets import fetch_20newsgroups
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 #from sklearn.linear_model import SGDClassifier
